@@ -1,14 +1,274 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.bg-secondary{
+  background-color:#0b1787 !important;
+  color: #fff;
+  padding: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+
+ul.list-menu{
+  margin-bottom: 0px;
 }
+ul.list-menu > li{
+display: inline-block;
+margin: 0px 20px;
+
+}
+
+ul.list-menu a{
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+ul.list-menu>li:hover{
+  background-color: #0b1787 !important;
+  border-radius: 5px;
+
+}
+
+
+.img{
+  width: 100%;  
+  height: 400px;
+  
+}
+
+.txt-btn{
+text-align: center;
+font-size: 30px;
+padding-top: 15px;
+}
+
+.txt-btn > h2{
+  font-size: 18px;
+  padding-top: 15px;
+  font-weight: 200;
+  padding-bottom: 25px;
+  }
+
+.col-sm>h2{
+  font-weight: 200;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+
+.text-left{
+ font-size: 18px;
+}
+
+.col-4{
+  padding-top: 55px;
+  font-weight: 600
+}
+
+.col-4>h2{
+  font-weight: 200;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.infoBtn{
+  padding: 45px;
+  background:#4e4e4e;;
+  text-align: left;
+  color: white;
+}
+.TxtBtn>h2{
+  font-size: 15px;
+ 
+}
+
+.icon{
+  font-size: 48px;
+   color: #0c1886;
+  
+}
+
+.icon-wrapper{
+  
+  height: 110px;
+  width: 110px;
+  margin: 3px;
+  border-radius: 100%;
+  line-height: 110px;
+  text-align: center;
+  background: #fff;
+  color: #0c1886;
+  border: 3px solid #fff;
+  box-shadow: inset 0 0 0 5px #f2f2f2;
+  margin-right: 25px;
+}
+
+.txt-profil{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.txt-profil>h4{
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: 200;
+}
+
+.txt-profil2{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.txt-profil2>h4{
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: 200;
+}
+
+.center{
+
+  padding: 30px;
+  color: black;
+  font-size: 30px;
+  
+}
+
+
+.visi>h4{
+padding-top: 5px;
+font-size: 16px;
+font-weight: 200;
+
+}
+
+.misi>h4{
+padding-top: 8px;
+font-size: 16px;
+font-weight: 200;
+}
+
+.col-xs-12{
+  padding: 20px;
+  border: 1px solid;
+}
+
+.profil{
+  text-align: center;
+  font-size: 30px;
+}
+
+.profil>h4{
+  font-weight: 200;
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+
+
+.tdp{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid #ddd;
+  line-height: 24px;
+  margin: 1px;
+ 
+ }
+
+ .siup{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid #ddd;
+  line-height: 24px;
+  margin: 1px;
+  position: absolute;
+ }
+
+ .pkp{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid #ddd;
+  line-height: 24px;
+  margin: 1px;
+  position: absolute;
+ }
+
+ .npwp{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid #ddd;
+  line-height: 24px;
+  margin: 1px;
+  position: absolute;
+ }
+ 
+.domisili{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid #ddd;
+  line-height: 24px;
+  margin: 1px;
+  position: absolute;
+}
+
+.dokumentasi{
+  text-align: center;
+  padding-top: 25px;
+  font-size: 30px;
+}
+
+.dokumentasi>h4{
+  font-weight: 200;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.btnfoto{
+ padding-bottom: 20px;
+ }
+
+ .alamat{
+   font-size: 30px;
+   text-align: center;
+   padding-top: 25px;
+   padding-bottom: 25px;
+ }
+
+ .alamat>h4{
+   font-size: 20px;
+   text-align: left;
+   padding-top: 10px;
+   margin: 30px;
+ }
+
+.nama{
+ padding: 15px;
+ width: 450px
+}
+
+ .email{
+ padding: 15px;
+ width: 450px;
+ }
+
+ .phone{
+  padding: 15px;
+  width: 450px; 
+ }
+
+ .text-area{
+  padding: 15px;
+  width: 480px;
+ }
+  
+.submit{
+  margin: 15px;
+  padding-top: 0px;
+}
+ 
