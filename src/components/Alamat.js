@@ -1,8 +1,8 @@
 import React from 'react';
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
-import Peta from '../images/Peta.jpg'
+import { Button, Form, Label, Input,  } from 'reactstrap';
+
 import {
-    Container
+    
 } from 'reactstrap'
 
 class Contact extends React.Component {
